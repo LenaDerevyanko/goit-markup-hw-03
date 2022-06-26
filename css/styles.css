@@ -358,7 +358,6 @@ margin-bottom: 0;
     line-height: 1.71;
     color: var(--fours-text-color);
     /* text-decoration: none; */
-    /* font-style: normal; */
 }
 .mail-footer:hover {
     color: var(--accent-color);
