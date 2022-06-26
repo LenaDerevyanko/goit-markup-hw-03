@@ -365,8 +365,14 @@ margin-right: 0;
     color: var(--accent-color);
 }
 /* Portfolio */
+.adv-title,
+.control-title {
+    display: none;
+}
 .control {
+    padding: 0;
     margin: 0;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     font-family: 'Roboto';
@@ -377,9 +383,12 @@ margin-right: 0;
     list-style-type: none;
     color: var(--secondary-text-color);
 }
-.adv-title,
-.control-title {
-    display: none;
+.control .item {
+    margin-right: 8px;
+}
+
+.control .item:last-child {
+    margin-right: 0;
 }
  /* .visually-hidden {
     position: absolute;
@@ -397,7 +406,6 @@ margin-right: 0;
 .button2 {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     padding: 6px 22px;
-    margin-bottom: 50px;
     border-radius: 4px;
     font-family: 'Roboto';
     background-color: var(--secondary-background-color);
@@ -405,15 +413,6 @@ margin-right: 0;
     font-size: 16px;
     line-height: 1.63;
     border: none;
-}
-.control {
-    margin-bottom: 50px;
-}
-.control .item {
-    margin-right: 8px;
-}
-.control .item:last-child {
-    margin-right: 0;
 }
 
 .button2:hover {
@@ -429,7 +428,7 @@ margin-right: 0;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
+    padding: 0;
 }
 
 .gallery .list-img {
@@ -437,16 +436,8 @@ margin-right: 0;
 }
 .gallery .img {
     display: block;
-    
 }
 
-.gallery .description2,
-.gallery .lorem {
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
 .gallery .item {
     list-style-type: none;
     width: 370px;
@@ -461,13 +452,9 @@ margin-right: 0;
     margin-bottom: 0;
 }
 .gallery .card {
-    /* display: block; */
+    display: block;
     border: 1px solid var(--border-btm-scnd-clr);
 }
-/* .list-img .img {
-    width: 370px;
-    display: block;
-} */
 .projects {
     margin: 0;
     padding: 20px 24px 4px 24px;
@@ -484,6 +471,8 @@ margin-right: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
     
