@@ -11,11 +11,11 @@
     color: inherit;
 }
 /* Свойства для корректного отображения картинок */
-img {
+/* img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 
 /* Свойства для обнуления курсива у address */
 address {
@@ -381,7 +381,7 @@ margin-right: 0;
 .control-title {
     display: none;
 }
-/*  .visually-hidden {
+ /* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -391,8 +391,8 @@ margin-right: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden; */
-}
+    overflow: hidden;
+} */
 
 .button2 {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -429,11 +429,15 @@ margin-right: 0;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    padding-left: 0;
 }
 
 .gallery .list-img {
     text-decoration: none;
+}
+.gallery .img {
+    display: block;
+    
 }
 
 .gallery .description2,
@@ -443,18 +447,11 @@ margin-right: 0;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-.list-img .img {
-    display: block;
-}
 .gallery .item {
-    margin-bottom: 20px;
     list-style-type: none;
     width: 370px;
     margin-bottom: 30px;
     margin-right: 30px;
-}
-.gallery .card {
-    border: 1px solid var(--border-btm-scnd-clr);
 }
 
 .gallery .item:nth-child(3n) {
@@ -463,6 +460,14 @@ margin-right: 0;
 .gallery .item:nth-child(n + 7) {
     margin-bottom: 0;
 }
+.gallery .card {
+    /* display: block; */
+    border: 1px solid var(--border-btm-scnd-clr);
+}
+/* .list-img .img {
+    width: 370px;
+    display: block;
+} */
 .projects {
     margin: 0;
     padding: 20px 24px 4px 24px;
@@ -475,7 +480,7 @@ margin-right: 0;
 
 .description2 {
     margin: 0;
-    padding: 0 24px 20px 24px;
+    padding: 0 24PX 20px 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
