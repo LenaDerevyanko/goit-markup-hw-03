@@ -73,6 +73,7 @@ body {
     margin-top: 0;
     border-bottom: 1px solid var(--border-botoom-color);
     background-color: var(--primary-background-color);
+    font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -308,6 +309,7 @@ margin-right: 0;
 }
 /* footer */
 .footer {
+    font-family: 'Roboto';
     padding: 0;
     padding-bottom: 60px;
     background-color: var(--third-background-color);
@@ -458,6 +460,7 @@ margin-right: 0;
 .projects {
     margin: 0;
     padding: 20px 24px 4px 24px;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -468,6 +471,7 @@ margin-right: 0;
 .description2 {
     margin: 0;
     padding: 0 24PX 20px 24px;
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
